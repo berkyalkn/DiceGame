@@ -24,7 +24,7 @@ else {
     document.querySelector("h2").innerHTML = "Player 2 Wins! 🚩";
 }
 
-document.querySelectorAll(".dice > p")[0].innerHTML = "1st Player Score = " + randomNumber1;
-document.querySelectorAll(".dice > p")[1].innerHTML = "2nd Player Score = " + randomNumber2;
+document.getElementById("player1").innerText = "1st Player Score = " + randomNumber1;
+document.getElementById("player2").innerText = "2nd Player Score = " + randomNumber2;
 
 }
